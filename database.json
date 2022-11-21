@@ -1,0 +1,20 @@
+{
+    "development": {
+      "dialect": "mysql",
+      "password": "O3!sEE3|:",
+      "username": "u368364338_test",
+      "database": "u368364338_test",
+      "host": "sql222.main-hosting.eu"
+    },
+    "production": {
+      "dialect": "postgres",
+      "username": "username",
+      "database": "traderfxm",
+      "password": "production-password",
+      "host": "production.databasehost.com",
+      "ssl": true,
+      "dialectOptions": {
+        "ssl": true
+      }
+    }
+  }
