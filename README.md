@@ -6,15 +6,15 @@ Enter database info into database.json
 
 Run Database Migrations
 
-    `npm run migrate`
+    npm run migrate
 
 Run Database Seeds
 
-    `npm run seed`
+    npm run seed
 
 Run Project
 
-    `npm run start`
+    npm run start
 
 
 
@@ -24,7 +24,7 @@ Run Project
 
 Run webpack dev server
 
-    `npm run start:client`
+    npm run start:client
 
 
 
@@ -32,7 +32,7 @@ Run webpack dev server
 
 Rum webpack build script
   
-    `npm run build:client`
+    npm run build:client
 
 
 
@@ -40,9 +40,14 @@ Rum webpack build script
 
 Development => http://localhost:1027/control/signin.html
 
-    pass ==> adminpassword1337
+    password
+        
+        adminpassword1337
 
-    email ==> admin@admin.com
+
+    email
+    
+        admin@admin.com
 
 
 Production => http://domain.com/control/signin.html

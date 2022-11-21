@@ -1,3 +1,5 @@
+git push -u origin main
+
 "build": "sequelize-cli db:migrate",
 
 "app-manifest-webpack-plugin": "^1.2.2",
