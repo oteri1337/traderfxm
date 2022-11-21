@@ -1,39 +1,48 @@
-# Steps to run express server
+### Steps to run express server
 
 Create SQL database 
 
 Enter database info into database.json
 
 Run Database Migrations
-    npm run migrate
+
+    `npm run migrate`
 
 Run Database Seeds
-    npm run seed
+
+    `npm run seed`
 
 Run Project
-    npm run start
+
+    `npm run start`
 
 
 
 
 
-# Steps to build react for development
+### Steps to build react for development
+
 Run webpack dev server
-    npm run start:client
+
+    `npm run start:client`
 
 
 
-# Steps to build react for production
+### Steps to build react for production
+
 Rum webpack build script
-    npm run build:client
+  
+    `npm run build:client`
 
 
 
-# Control Panel Link
+### Control Panel Link
 
 Development => http://localhost:1027/control/signin.html
-pass ==> adminpassword1337
-email ==> admin@admin.com
+
+    pass ==> adminpassword1337
+
+    email ==> admin@admin.com
 
 
 Production => http://domain.com/control/signin.html
@@ -41,5 +50,6 @@ Production => http://domain.com/control/signin.html
 
 
 
-# Notes
+### Notes
+
     Do not commit database.json to a public repo
